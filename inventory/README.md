@@ -10,8 +10,8 @@ It is just a basic inventory app that does the following.
 
 ### To Run the app, just do the following
 * Navigate into the inventory folder after cloning or downloading this web app from github
-* You need python 3.7 and above to run the app
+* You need python 3.1 and above to run the app
 * Run "pip install -r requirements.txt" to install the required python packages needed to run the web app.
 * After that, run "python manage.py makemigrations" to create a model that gets populated to the database.
 * Then run "python manage.py migrate" to actually populate the DB.
-* Visit "localhost:8080" on your browser to access the web app
+* Visit "http://127.0.0.1:8000/" on your browser to access the web app
